@@ -1,0 +1,18 @@
+{
+  "version": "1.0",
+  "created_at": "2026-06-10",
+  "boards": [
+    {
+      "id": "board-1",
+      "name": "Heltec WiFi LoRa 32 V4",
+      "chip": "esp32s3",
+      "idf_version": "v5.5.3",
+      "mdns": "board-1.local",
+      "usb_port_hint": null,
+      "firmware": null,
+      "capabilities": ["wifi", "oled-ssd1306", "button", "led"],
+      "notes": "Полигон для отладки конвейера. LoRa (SX1262) в рамках v4 не используется.",
+      "status": "ordered"
+    }
+  ]
+}
