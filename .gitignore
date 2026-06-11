@@ -2,9 +2,13 @@
 **/build/
 **/build.bat
 
-# ESP-IDF generated
-**/sdkconfig
+# ESP-IDF generated dependencies
+**/managed_components/
 **/dependencies.lock
+
+# ESP-IDF config
+**/sdkconfig
+**/sdkconfig.old
 
 # IDE
 .vscode/
@@ -18,3 +22,7 @@ __pycache__/
 # Temp
 *.tmp
 *.log
+
+# OS
+Thumbs.db
+.DS_Store
